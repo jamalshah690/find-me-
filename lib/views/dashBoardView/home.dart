@@ -1,7 +1,7 @@
 import 'view_export.dart';
 
 class HomeView extends StatelessWidget {
-    HomeView({super.key});
+  HomeView({super.key});
 
   final jobController = Get.find<JobController>();
 
@@ -9,6 +9,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        surfaceTintColor: AppColor.kWhiteColor,
         backgroundColor: AppColor.kWhiteColor,
         foregroundColor: AppColor.kWhiteColor,
         elevation: 0,
@@ -36,6 +37,8 @@ class HomeView extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        physics: BouncingScrollPhysics(),
         child: Column(
           children: [
             SearchComponent(),

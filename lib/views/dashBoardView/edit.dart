@@ -122,6 +122,7 @@ class EditView extends StatelessWidget {
                     height: 48.h,
                     onTap: () async {
                       JobModel jobModel = JobModel(
+                        dateTime: DateTime.now(),
                           title: jobModels.title.toString(),
                           description: jobModels.description.toString(),
                           status: adoptStatus == 'Pending'

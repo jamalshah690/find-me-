@@ -117,7 +117,7 @@ class AddJobView extends StatelessWidget {
                       height: 48.h,
                       onTap: () async {
                         if (_formKey.currentState!.validate()) {
-                          JobModel jobModel = JobModel(
+                          JobModel jobModel = JobModel(dateTime: DateTime.now() ,
                               title: titleController.text.trim().toString(),
                               description:
                                   descriptionController.text.trim().toString(),
