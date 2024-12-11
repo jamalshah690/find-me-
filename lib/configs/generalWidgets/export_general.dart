@@ -1,0 +1,14 @@
+export 'package:findme/configs/res/colors.dart';
+export 'package:flutter/material.dart';
+export 'package:flutter/services.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+export 'package:flutter_svg/svg.dart';
+export 'package:google_fonts/google_fonts.dart';
+export 'package:flutter/foundation.dart';
+export 'package:findme/configs/generalWidgets/textstyle_component.dart';
+export 'package:findme/models/job_model.dart';
+export 'package:findme/configs/utlis/extension.dart';
+export 'package:findme/configs/utlis/validation_utils.dart';
+export 'package:findme/viewModels/controllers/job_controller.dart';
+export 'package:findme/configs/generalWidgets/primary_button.dart';
+export 'package:get/get.dart';

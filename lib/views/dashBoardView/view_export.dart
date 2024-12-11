@@ -1,0 +1,23 @@
+export 'package:findme/configs/generalWidgets/customfield_components.dart';
+export 'package:findme/configs/generalWidgets/primary_button.dart';
+export 'package:findme/configs/generalWidgets/textstyle_component.dart';
+export 'package:findme/models/job_model.dart';
+export 'package:findme/configs/res/colors.dart';
+export 'package:findme/configs/res/icons.dart';
+export 'package:findme/configs/utlis/extension.dart';
+export 'package:findme/configs/utlis/validation_utils.dart';
+export 'package:findme/viewModels/controllers/job_controller.dart';
+export 'package:flutter/material.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+export 'package:get/get.dart';
+export 'package:findme/configs/animation/auto_shake_animation.dart';
+export 'package:findme/views/dashBoardView/add_job.dart';
+export 'package:findme/views/dashBoardView/widgets/card_component.dart';
+export 'package:findme/views/dashBoardView/widgets/search_card_componen.dart';
+export 'package:findme/views/dashBoardView/widgets/search_component.dart';
+ 
+export 'package:findme/configs/generalWidgets/delete_dialog.dart';
+export 'package:findme/views/dashBoardView/edit.dart';
+export 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
+export 'package:flutter_svg/svg.dart';
+export 'package:google_fonts/google_fonts.dart'; 
