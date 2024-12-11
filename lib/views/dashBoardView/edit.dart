@@ -1,8 +1,7 @@
- 
-
 // ignore_for_file: must_be_immutable
 
 import 'view_export.dart';
+
 class EditView extends StatelessWidget {
   final JobModel jobModels;
   final int index;
@@ -62,7 +61,6 @@ class EditView extends StatelessWidget {
                   if (value!.isEmpty) {
                     return 'title must not be empty';
                   }
-                  return '';  
                 },
                 onChanged: (value) {},
               ),
@@ -85,7 +83,6 @@ class EditView extends StatelessWidget {
                   if (value!.isEmpty) {
                     return value;
                   }
-                  return '';
                 },
                 onChanged: (value) {},
               ),

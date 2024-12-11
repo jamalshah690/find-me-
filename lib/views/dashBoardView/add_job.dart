@@ -57,7 +57,7 @@ class AddJobView extends StatelessWidget {
                     if (value!.isEmpty) {
                       return 'title must not be empty';
                     }
-                    return ''; 
+                     
                   },
                   onChanged: (value) {},
                 ),
@@ -78,7 +78,7 @@ class AddJobView extends StatelessWidget {
                     if (value!.isEmpty) {
                       return 'Description must not be empty';
                     }
-                    return '';
+               
                   },
                   onChanged: (value) {},
                 ),
